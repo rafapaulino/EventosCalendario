@@ -20,6 +20,8 @@
 		6A14CD4116021CE2001FB60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14CD2216021CE2001FB60E /* Foundation.framework */; };
 		6A14CD4916021CE2001FB60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A14CD4716021CE2001FB60E /* InfoPlist.strings */; };
 		6A14CD4C16021CE2001FB60E /* EventosCalendarioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A14CD4B16021CE2001FB60E /* EventosCalendarioTests.m */; };
+		6A14CD5716021FD8001FB60E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14CD5516021FD8001FB60E /* EventKit.framework */; };
+		6A14CD5816021FD8001FB60E /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A14CD5616021FD8001FB60E /* EventKitUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		6A14CD4816021CE2001FB60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A14CD4A16021CE2001FB60E /* EventosCalendarioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventosCalendarioTests.h; sourceTree = "<group>"; };
 		6A14CD4B16021CE2001FB60E /* EventosCalendarioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventosCalendarioTests.m; sourceTree = "<group>"; };
+		6A14CD5516021FD8001FB60E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		6A14CD5616021FD8001FB60E /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A14CD5716021FD8001FB60E /* EventKit.framework in Frameworks */,
+				6A14CD5816021FD8001FB60E /* EventKitUI.framework in Frameworks */,
 				6A14CD2116021CE2001FB60E /* UIKit.framework in Frameworks */,
 				6A14CD2316021CE2001FB60E /* Foundation.framework in Frameworks */,
 				6A14CD2516021CE2001FB60E /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +87,8 @@
 		6A14CD1116021CE2001FB60E = {
 			isa = PBXGroup;
 			children = (
+				6A14CD5516021FD8001FB60E /* EventKit.framework */,
+				6A14CD5616021FD8001FB60E /* EventKitUI.framework */,
 				6A14CD2616021CE2001FB60E /* EventosCalendario */,
 				6A14CD4416021CE2001FB60E /* EventosCalendarioTests */,
 				6A14CD1F16021CE2001FB60E /* Frameworks */,
